@@ -1,0 +1,2 @@
+docker stop my-back-container my-front-container
+docker rm my-back-container my-front-container
