@@ -1,0 +1,2 @@
+docker run -d -p 5000:5000 -e CURRENT_ENVIRONMENT=development --name my-back-container woupa784/my-back:latest
+docker run -d -p 8080:80 -e WS_BACK_URL=http://10.1.168.28:5000 --name my-front-container woupa784/my-front:latest
